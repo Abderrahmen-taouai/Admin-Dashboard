@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
@@ -10,10 +13,39 @@
     <div class="container">
         <div class="header">
             <div class="nav">
-                <div class="1">1</div>
-                <div class="1">1</div>
-                <div class="1">1</div>
-                <div class="1">1</div>
+                <div class="top">
+                    <div class="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                        <input type="search" size="60" placeholder="Search">
+                        
+                    </div>
+                    <div class="user">
+                        <svg class="icon" id="notification" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z"></path>
+                        </svg>
+                        <div class="user-img"><img src="user.png" alt="profile"></div>
+                        <div class="user-text">
+                            <p><b>Ahmed Muslim</b></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="greetings">
+                    
+                    <div class="greet">
+                        <div class="user-profile"><img src="user.png" alt="profile"></div>
+                        <p class="hi">Salam Alykum</p>
+                        <p class="username"><b>Ahmed Muslim (@Ahmed)</b></p>
+                    </div>
+                    <div class="buttons">
+                     <button>New</button>
+                     <button>Upload</button>
+                     <button>Share</button>
+                    </div>
+                </div>
+                
 
             </div>
         </div>
