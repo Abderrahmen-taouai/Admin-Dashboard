@@ -266,7 +266,7 @@ body,html {
   
 }
 
-  .account{
+.account{
   display: flex;
   justify-content: start;
   align-items: center;
